@@ -16,7 +16,7 @@ async function insert(avenger){
         .first();
 }
 
-async function(update, id, change){
+async function update(update, id, change){
     return null;
 }
 
