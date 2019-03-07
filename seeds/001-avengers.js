@@ -6,9 +6,8 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('avengers').insert([
         { name: 'Black Widow'},
-        { name: 'Thor'},
-        { name: 'Iron Man'},
-        { name: 'Captain Marvel'}
+        { name: 'Captain Marvel'},
+        { name: 'Thor'}
       ]);
     });
 };
